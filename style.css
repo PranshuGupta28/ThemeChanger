@@ -1,0 +1,50 @@
+
+body{
+    padding: 40px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 252, 234);
+    color: #000000;
+}
+button{
+    background: hsl(0, 0%, 79%);
+    height: 40px;
+    padding: 9px 24px;
+    border-radius: 7px;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button{
+    display: flex;
+    padding: 30px;
+    height: 40px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+#grey{
+    background: grey;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background: blue;
+}
+#red{
+    background: red;
+}
+#black{
+    background: #000000;
+}
